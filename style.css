@@ -438,6 +438,24 @@ img {
     animation-delay: 4s;
 }
 
+.hero__card--4 {
+    top: 25%;
+    left: 5%;
+    animation-delay: 1s;
+}
+
+.hero__card--5 {
+    bottom: 30%;
+    right: 0;
+    animation-delay: 3s;
+}
+
+.hero__card--6 {
+    bottom: 20%;
+    left: 10%;
+    animation-delay: 5s;
+}
+
 @keyframes cardFloat {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-12px); }
@@ -1138,6 +1156,9 @@ img {
     .hero__card--1 { top: 0; right: auto; left: 5%; }
     .hero__card--2 { top: auto; bottom: 40%; left: auto; right: 5%; }
     .hero__card--3 { bottom: 0; right: auto; left: 15%; }
+    .hero__card--4 { position: relative; top: auto; left: auto; }
+    .hero__card--5 { position: relative; bottom: auto; right: auto; }
+    .hero__card--6 { position: relative; bottom: auto; left: auto; }
 
     .hero__scroll {
         display: none;
